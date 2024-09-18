@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Form</title>
+    <style>h1{
+        position: relative;
+        left: 30%;
+        color: red;
+    }
+    #hd{
+        position: relative;
+        left: 40%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    body{
+            background-image: url("travel.jpg");
+    }    
+    </style>
+</head>
+<body>
+    <caption align="center"><h1>Student Registration form</h1></caption>
+    <table align="center">
+    <tr>
+        <td><b>Roll number</b></td>
+        <td><input required type="text"></td>
+    </tr>
+    <tr>
+        <td><b>Full Name</b></td>
+        <td><input required type="text"></td> 
+    </tr>    
+    <tr>
+        <td><b>Address</b></td>
+        <td><textarea rowspan="3"></textarea></td>
+    </tr>
+    <tr>
+        <td><b>Date of Birth</b></td>
+        <td><input required type="date"></td>
+    </tr>
+    <tr>
+        <td><b>Phone No</b></td>
+        <td><input required type="number"></td>
+    </tr>
+    <tr>
+        <td><b>Email</b></td>
+        <td><input required type="email"></td>
+    </tr>
+    <tr>
+        <td><b>Password</b></td>
+        <td><input required type="password"></td>
+    </tr>
+    <tr>
+        <td><b>Retype Password</b></td>
+        <td><input required type="password"></td>
+    </tr>
+    <tr>
+        <td><b>Gender</b></td>
+        <td><input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        </td>
+    </tr>
+    <tr>
+        <td><b>Total Family Income</b></td>
+        <td><input type="radio" name="income">0 & 2Lakh
+        <input type="radio" name="income">>3Lakh & 5Lakh
+        <input type="radio" name="income">>5Lakh & 10Lakh
+        <input type="radio" name="income">>10Lakh
+        </td>
+    </tr>
+    <tr>
+        <td><b>Programming Skills</b></td>
+        <td>
+            <textarea col="1">C++
+    C
+    Java
+    Python  </textarea>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Branch</b></td>
+        <td><select>
+            <option>CSE</option>
+            <option>ME</option>
+            <option>IT</option>
+            <option>Civil</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td><b>Hobbies</b></td>
+        <td><input type="radio" name="hobby">Sports
+        <input type="radio" name="hobby">Movies
+        <input type="radio" name="hobby">Fashion
+        <input type="radio" name="hobby">Reading    
+        </td>
+    </tr>
+    <tr>
+        <td><b>Type of Job Required</b></td>
+        <td><input type="radio" name="job">CEO
+        <input type="radio" name="job">Software
+        <input type="radio" name="job">Hardware
+        <input type="radio" name="job">Networking
+        <input type="radio" name="job">Manager
+        <input type="radio" name="job">Research 
+        </td>
+    </tr>
+    <tr>
+        <td><b>Upload your bio-data</b></td>
+        <td><input  required type="file"></td>
+    </tr>
+    </table>
+    <div id = "hd">
+        <button align="center">OK</button>
+        <button align="center">CANCEL</button>
+    </div>
+</body>
+</html>

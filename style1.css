@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+h1 {
+    color: #e74c3c;
+}
+
+h2 {
+    color: #8e44ad;
+}
+
+p {
+    color: #2c3e50;
+}
